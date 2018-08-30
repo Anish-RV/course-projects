@@ -1,0 +1,5 @@
+We had some issues with our implementation that took longer than expected to fix.
+For example, we tried to serialize too many classes, which cluttered up our code
+and forced us to seek alternatives. We also did not realize that commits needed
+to make a copy of the file as the 'snapshot' as we were just trying to use the 
+generated SHA value of the contents of the file.
