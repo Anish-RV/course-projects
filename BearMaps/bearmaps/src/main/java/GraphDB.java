@@ -78,9 +78,6 @@ public class GraphDB {
         }
     }
 
-
-
-
     /**
      * This constructor creates and starts an XML parser, cleans the nodes, and prepares the
      * data structures for processing. Modify this constructor to initialize your data structures.
